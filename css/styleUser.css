@@ -1,55 +1,65 @@
-
 :root{
-    --pink:#27a7d8;
+    --blue:#27a7d8;
 }
 
-.footer{
+
+footer{
+    margin-top: 50px;
     background: url("/img/showcase_blog_bg.png");
     background-repeat: round;
-}
-
-.footer .box-container{
+    text-transform: capitalize; 
+  }
+  
+  footer .box-container{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
-}
-
-.footer .box-container .box{
+  }
+  
+  footer .box-container .box{
     flex: 1 1 25rem;
-}
-
-.footer .box-container .box h3{
-    color: var(--pink);
-    font-size: 2.5rem;
+    max-width: fit-content;
+    padding-left: 7rem;
+  }
+  
+  footer .box-container .box h3{
+    font-family: verdana, Geneva, Tahoma, san-serif;  
+    color: var(--blue);
+    font-size: 2rem;
     padding: 1rem 0;
-}
-
-.footer .box-container .box a{
+  }
+  
+  footer .box-container .box a{
+    font-family: verdana, Geneva, Tahoma, san-serif;
     display: block;
     color: #666;
-    font-size: 2.5rem;
+    font-size: 1rem;
     padding: 1rem 0;
-}
-
-.footer .box-container .box a:hover{
-    color: var(--pink);
+  }
+  
+  footer .box-container .box a:hover{
+    color: var(--blue);
     text-decoration: underline;
-}
-
-.footer .box-container .box img{
+  }
+  
+  footer .box-container .box img{
     margin-top: 1rem;
-    width: 25rem;
-}
-
-.footer .credit{
+    width: 12rem;
+  }
+  
+  footer .credit{
     text-align: center;
     padding: 1.5rem;
     margin-top: 1.5rem;
     padding-top: 2.5rem;
-    font-size: 2rem;
+    font-size: 1rem;
     color: #333;
     border-top: .1rem solid rgba(0,0,0,.1);
-}
+  }
+  
+  footer .credit img{
+    width: 35px;
+  }
 
 section{
     padding: 2rem 9%;
@@ -76,7 +86,7 @@ label.btn {
 }
 
 .btn-outline-primary {
-    border-color: #26B4FF;
+    border-color: var(--blue);
     background: transparent;
     color: #26B4FF;
 }
@@ -91,7 +101,7 @@ label.btn {
 
 .btn-facebook {
     border-color: rgba(0, 0, 0, 0);
-    background: #3B5998;
+    background: var(--blue);
     color: #fff;
 }
 
@@ -106,9 +116,6 @@ label.btn {
     box-shadow: 0 1px 4px rgba(24, 28, 33, 0.012);
 }
 
-.row-bordered {
-    overflow:hidden;
-}
 
 .account-settings-fileinput {
     position: absolute;

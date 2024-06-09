@@ -1,426 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aperture Science</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="/css/styleMain.css">
-    <link rel="icon" href="/img/logo.png" type="image/x-icon">
+  <title>Aperture login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/styleIndex.css">
 </head>
 <body>
 
-    <!--header section inicio-->
+        <div class="section">
+            <div class="container">
+                <div class="row full-height justify-content-center">
+                    <div class="col-12 text-center align-self-center py-5">
+                        <div class="section pb-5 pt-5 pt-sm-2 text-center">
 
-    <header>
+        <h6 class="mb-0 pb-3"><span>Ingresar </span><span>Registrarse</span></h6>
 
-     <input type="checkbox" name="" id="toggler">
-     <label for="toggler" class="fas fa-bars"></label>
-        
-        <a href="" class="logo"> <img src="/img/logo.png" style="width: 23px;" alt="">Aperture Science </a> 
-        <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#products">Products</a>
-            <a href="#rewiew">rewiew</a>
-            <a href="#contact">contact</a>      
-        </nav>
+        <input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
+        <label for="reg-log"></label>
 
-        <div class="icons">
-            <a href="" class="fas fa-heart"></a>
-            <a href="" class="fas fa-shopping-cart"></a>
-            <a href="/views/userPage.html" class="fas fa-user "></a>
+                <div class="card-3d-wrap mx-auto">
+                    <div class="card-3d-wrapper">
+                        <div class="card-front">
+                            <div class="center-wrap">
+                                <div class="section text-center">
+                                    <h4 class="pb-3">Ingresar</h4>
+                                    <div class="form-group">       
 
-        </div>
+                                    <input type="email" class="form-style" placeholder="Email">
+                                    <i class="input-icon uil uil-at"></i>
+                                    
+                                    </div>	
+                                <div class="form-group mt-2">
+                                    <input type="password" class="form-style" placeholder="Contraseña">
+                                    <i class="input-icon uil uil-lock-alt"></i>
+                                </div>
 
-    </header>
+                                    <a href="/views/Main.html" class="btn mt-4">Ingresar</a>        
 
-    <!--header section final-->
+                                <div class="form-group mt-2">
+                                <p>O</p>
+                                <a href="" class="btn "><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="" class="btn "><i class="fa-brands fa-google"></i></a>
+                                <a href="" class="btn "><i class="fa-brands fa-github"></i></a>
+                                </div>
 
-    <!--home section inicio-->
-
-        <section class="home" id="home">
-
-            <div class="content">
-                <h3>Aperture Science</h3>
-                <span>hacemos lo que debemos por que podemos</span>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti sit ipsam ipsa explicabo eaque? A minima vitae dicta expedita esse, consequatur amet reiciendis earum nobis, adipisci corrupti, aut unde? Excepturi?</p>
-                   
-                <a href="#" class="btn">compra ya</a>
-            </div>    
-            <div class="box-container">
-
-                <div class="center">
-                    <img src="/img/centerpiece.png" alt="">
-                </div>
-            </div>
-
-        </section>
-
-    <!--home section final-->
-
-    <!--about section inicio-->
-    
-      <section class="about" id="about">
-
-            <h1 class="heading"> <span>Sobre </span>nosotros </h1>
-
-            <div class="row">
-                    <div class="video-container">
-                        <video src="videos/sobrenosotros.mp4" loop autoplay muted></video>
-                        <h3>mejor compañia de tecnologia</h3>
+                    <p class="mb-0 mt-4 text-center"><a href="" class="link">Olvidaste tu contraseña?</a></p>
                     </div>
-            <div class="content">
-                <h3>¿Por que elegirnos?</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, sint eveniet dolores excepturi iste tenetur. Voluptates consequatur, dolore nemo aut hic maiores itaque delectus voluptatem rerum quam voluptatibus dolores magni!</p>
-                <a href="#" class="btn">aprende mas</a>
-            </div>
-
-            </div>
-
-
-      </section>      
-
-
-    <!--about section final-->   
-
-    <!--icons section inicio-->
-
-     <section class="icons-container">
-
-        <div class="icons">
-            <img src="/img/envio.png" alt="">
-            <div class="info">
-                <h3>Envio gratis</h3>
-                <span>con cupon</span>
-            </div>
-        </div>    
-     
-
-  
-
-            <div class="icons">
-                <img src="/img/seguridad.png" alt="">
-                <div class="info">
-                    <h3>seguridad</h3>
-                    <span>en pagos y compras</span>
                 </div>
-            </div>    
-
-
-
-        <div class="icons">
-            <img src="/img/devolucion.png" alt="">
-            <div class="info">
-                <h3>10 dias devolucion</h3>
-                <span>regreso de dinero</span>
             </div>
-        </div>    
-      
+                <div class="card-back">
+                    <div class="center-wrap">
+                        <div class="section text-center">
 
-        
-    
+                            <h4 class="mb-3 pb-3">Registrarse</h4>
+                            <div class="form-group">
+                            <input type="text" class="form-style" placeholder="nombre completo">
+                            <i class="input-icon uil uil-user"></i>
+                    </div>	
+                <div class="form-group mt-2">
+                    <input type="tel" class="form-style" placeholder="numero">
+                    <i class="input-icon uil uil-phone"></i>
+                </div>	
 
-        <div class="icons">
-            <img src="/img/regalos.png" alt="">
-            <div class="info">
-                <h3>Regalos y Descuentos</h3>
-                <span>por acumulacion de compras</span>
-            </div>    
+        <div class="form-group mt-2">
+            <input type="email" class="form-style" placeholder="Email">
+            <i class="input-icon uil uil-at"></i>
         </div>
-        
-     </section> 
 
-    <!--icons section final-->
+        <div class="form-group mt-2">
+            <input type="password" class="form-style" placeholder="contraseña">
+            <i class="input-icon uil uil-lock-alt"></i>
+        </div>
 
-    <!--products section inicio-->
+            <a href="" class="btn mt-4">Registrarse</a>
+            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-     <section class="products" id="products">
-        
-        <h1 class="heading">Ultimos <span>Productos</span></h1>
+    <footer>
 
         <div class="box-container">
-            
-            <div class="box">
-                <span class="discount">-10%</span>
-                <div class="image">
-                    <img src="/img/laptopacer.png" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">agregar al carrito</a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>Laptop acer ryzen5</h3>
-                    <div class="price">$2.500k<span>$3.000K</span></div>
-                </div>
-            </div>
-
-            <div class="box">
-                <span class="discount">-11%</span>
-                <div class="image">
-                    <img src="/img/pcgtx.png" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">agregar al carrito</a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>PC amd xt 6600</h3>
-                    <div class="price">$300k <span>$350k</span></div>
-                </div>
-            </div>
-
-            <div class="box">
-                <span class="discount">-12%</span>
-                <div class="image">
-                    <img src="/img/logitech2.png" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">agregar al carrito</a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>GTV</h3>
-                    <div class="price">$300k <span>$350k</span></div>
-                </div>
-            </div>
-
-            <div class="box">
-                <span class="discount">-13%</span>
-                <div class="image">
-                    <img src="/img/vipermini.png" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">agregar al carrito</a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>GTV</h3>
-                    <div class="price">$300k <span>$350k</span></div>
-                </div>
-            </div>
-
-            <div class="box">
-                <span class="discount">-14%</span>
-                <div class="image">
-                    <img src="/img/laptopacer.png" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">agregar al carrito</a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>GTV</h3>
-                    <div class="price">$300k <span>$350k</span></div>
-                </div>
-            </div>
-
-            <div class="box">
-                <span class="discount">-15%</span>
-                <div class="image">
-                    <img src="/img/laptopacer.png" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">agregar al carrito</a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>GTV</h3>
-                    <div class="price">$300k <span>$350k</span></div>
-                </div>
-            </div>
-
-            <div class="box">
-                <span class="discount">-16%</span>
-                <div class="image">
-                    <img src="/img/laptopacer.png" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">agregar al carrito</a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>GTV</h3>
-                    <div class="price">$300k <span>$350k</span></div>
-                </div>
-            </div>
-
-            <div class="box">
-                <span class="discount">-17%</span>
-                <div class="image">
-                    <img src="/img/laptopacer.png" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">agregar al carrito</a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>GTV</h3>
-                    <div class="price">$300k <span>$350k</span></div>
-                </div>
-            </div>
-
-            <div class="box">
-                <span class="discount">-18%</span>
-                <div class="image">
-                    <img src="/img/laptopacer.png" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">agregar al carrito</a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>GTV</h3>
-                    <div class="price">$300k <span>$350k</span></div>
-                </div>
-            </div>
-            
-            <div class="box">
-                <span class="discount">-18%</span>
-                <div class="image">
-                    <img src="/img/portalgun.png" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">agregar al carrito</a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>Portal gun</h3>
-                    <div class="price"><span>Agotada</span></div>
-                </div>
-            </div>
-
-        </div>    
-
-     </section>
-
-    <!--products section final-->
-
-
-
-    <!--rewiew section inicio-->
-    <section class="rewiew" id="rewiew">
-        <h1 class="heading">Reseñas <span> Clientes</span></h1>
-        
-        <div class="box-conta">
-
-            <div class="box">
-                <div class="stars">
-
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <p>日本人は賢い日本人は賢い日本人は賢い日本人は賢い日本人は賢い日本人は賢い日本人は賢い.</p>
-                <div class="user">
-                    <img src="/img/cliente1.jpg" alt="">
-                    <div class="user-info">
-                        <h3>salo</h3>
-                        <span>happy customer</span>
-                    </div>
-                </div>
-                <span class="fas fa-quote-right"></span>
-            </div>
-
-            <div class="box">
-                <div class="stars">
-
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <p>como se a morir cerati como se a morir cerati como se a morir cerati como se a morir cerati como se a morir cerati   .</p>
-                <div class="user">
-                    <img src="/img/cliente3.jpg" alt="">
-                    <div class="user-info">
-                        <h3>victor</h3>
-                        <span>happy customer</span>
-                    </div>
-                </div>
-                <span class="fas fa-quote-right"></span>
-            </div>
-
-            <div class="box">
-                <div class="stars">
-
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <p>las mujeres y las mujeres y las mujeres y las mujeres y las mujeres y las mujeres y las mujeres y las mujeres .</p>
-                <div class="user">
-                    <img src="img/cliente2.png" alt="">
-                    <div class="user-info">
-                        <h3>Rico culo</h3>
-                        <span>Cesde war criminal</span>
-                    </div>
-                </div>
-                <span class="fas fa-quote-right"></span>
-            </div>
-
-        </div>
-
-    </section>
-    <!--rewiew section final-->
-
-    <!--contact section inicio-->
-
-    <section class="contact" id="contact">
-
-        <h1 class="heading"> <span>contacta</span> con nosotros</h1>
-
-        <div class="row">
-
-            <form action="">
-                <input type="text" placeholder="nombre" class="box">
-                <input type="text" placeholder="email" class="box">
-                <input type="text" placeholder="numero" class="box">
-                <textarea name="" id="" class="box" placeholder="mensaje" cols="30" rows="10"></textarea>
-                <input type="submit" value="enviar mensaje" class="btn">
-            </form>
-            <div class="image">
-                <img src="/img/contacto.jpg" alt="">
-            </div>
-        </div>
-
-    </section>
-
-
-
-    <!--contact section final-->
-
-    <!--footer section inicio-->
-
-    <section class="footer">
-
-        <div class="box-container">
-
-            <div class="box">
-
-                <h3>quick links</h3>
-                <a href="" id="#home">Home</a>
-                <a href="" id="#about">About</a>
-                <a href="" id="#products">Products</a>
-                <a href="" id="#rewiew">Rewiew</a>
-                <a href="" id="#contact">Contact</a>
-            </div>
 
             <div class="box">
 
@@ -456,11 +128,8 @@
         <img src="/img/logo.png" style="width: 10px;" alt="">Aperture Science
         <img src="" alt="">
        </div> 
+    </footer>
 
-    </section>
-
-
-    <!--footer section final-->
 
 
 </body>
