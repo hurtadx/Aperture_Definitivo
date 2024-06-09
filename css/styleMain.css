@@ -503,9 +503,10 @@ header .fa-bars{
         background-position: left;
     }
     .footer{
-        background: url("/img/fondovertical.png");
+        background: url("/img/showcase_blog_bg2.png");
         background-repeat: round;
     }
+    
 }
 
 @media (max-width:768px){
@@ -542,6 +543,13 @@ header .fa-bars{
         color: #555;
         font-size: 1.7rem;
     
+    }
+    .portalgun{
+        width: 70%;
+    }
+    .footer{
+        background: url("/img/fondovertical.png");
+        background-repeat: round;
     }
 }
 

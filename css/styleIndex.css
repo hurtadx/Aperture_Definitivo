@@ -230,7 +230,7 @@ section.home .center img {
 }
 
 footer{
-  background: url("/img/showcase_blog_bg.png");
+  background: #040404;
   background-repeat: round;
   text-transform: capitalize; 
 }
@@ -303,10 +303,19 @@ footer .credit img{
       max-width: 100%;
   }
   footer{
-    background: url("/img/fondovertical.png");
+    background: #040404;
     background-repeat: round;
     background-size: auto;
+    font-size: 50%;
   }
+  
+footer .box-container .box{
+  flex: 1 1 25rem;
+  max-width: fit-content;
+  margin-right: 20px;
+  text-align: left;
+}
+  
 }
 
 /* Additional Styles for Better Appearance */

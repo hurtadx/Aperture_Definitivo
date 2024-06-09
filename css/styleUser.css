@@ -2,52 +2,54 @@
     --blue:#27a7d8;
 }
 
-
+/* Estilos comunes */
 footer{
     margin-top: 50px;
     background: url("/img/showcase_blog_bg.png");
     background-repeat: round;
     text-transform: capitalize; 
-  }
-  
-  footer .box-container{
+}
+
+footer .box-container{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
-  }
-  
-  footer .box-container .box{
+}
+
+footer .box-container .box{
     flex: 1 1 25rem;
     max-width: fit-content;
-    padding-left: 7rem;
-  }
-  
-  footer .box-container .box h3{
+    padding-left: 8%;
+    
+}
+
+footer .box-container .box h3{
     font-family: verdana, Geneva, Tahoma, san-serif;  
     color: var(--blue);
-    font-size: 2rem;
+    font-size: 22px;
     padding: 1rem 0;
-  }
-  
-  footer .box-container .box a{
+}
+
+footer .box-container .box a{
     font-family: verdana, Geneva, Tahoma, san-serif;
     display: block;
     color: #666;
-    font-size: 1rem;
+    font-size: 13px;
     padding: 1rem 0;
-  }
-  
-  footer .box-container .box a:hover{
+}
+
+footer .box-container .box a:hover{
     color: var(--blue);
     text-decoration: underline;
-  }
-  
-  footer .box-container .box img{
-    margin-top: 1rem;
-    width: 12rem;
-  }
-  
-  footer .credit{
+}
+
+footer .box-container .box img{
+    width: 120px;
+    height: 30px;
+    margin-bottom: auto;
+}
+
+footer .credit{
     text-align: center;
     padding: 1.5rem;
     margin-top: 1.5rem;
@@ -55,11 +57,11 @@ footer{
     font-size: 1rem;
     color: #333;
     border-top: .1rem solid rgba(0,0,0,.1);
-  }
-  
-  footer .credit img{
+}
+
+footer .credit img{
     width: 35px;
-  }
+}
 
 section{
     padding: 2rem 9%;
@@ -116,7 +118,6 @@ label.btn {
     box-shadow: 0 1px 4px rgba(24, 28, 33, 0.012);
 }
 
-
 .account-settings-fileinput {
     position: absolute;
     visibility: hidden;
@@ -137,41 +138,54 @@ html:not(.dark-style) .account-settings-links .list-group-item.active {
     width: 100% !important;
 }
 
-.light-style .account-settings-links .list-group-item {
-    padding: 0.85rem 1.5rem;
-    border-color: rgba(24, 28, 33, 0.03) !important;
+
+@media (max-width:991px){
+    footer{
+        font-size: 10rem;
+        background: url("/img/showcase_blog_bg2.png");
+        background-repeat: round;
+      }
+
 }
 
-.light-style .account-settings-links .list-group-item.active {
-    color: #4e5155 !important;
+
+
+@media only screen and (max-width: 768px) {
+    footer .box-container .box {
+        flex: 1 1 50%;
+        max-width: 50%;
+        padding-left: 0;
+    }
+
+    footer .box-container .box h3 {
+        font-size: 1.5rem;
+    }
+
+    footer .box-container .box img {
+        width: 8rem;
+    }
+
+    footer{
+        background: url("/img/fondovertical.png");
+        background-repeat: round;
+    }
 }
 
-.material-style .account-settings-links .list-group-item {
-    padding: 0.85rem 1.5rem;
-    border-color: rgba(24, 28, 33, 0.03) !important;
+@media only screen and (max-width: 576px) {
+    footer .box-container .box {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    footer .box-container .box h3 {
+        font-size: 1.2rem;
+    }
+
+    footer .box-container .box img {
+        width: 6rem;
+    }
 }
 
-.material-style .account-settings-links .list-group-item.active {
-    color:#333 !important;
-}
-
-.dark-style .account-settings-links .list-group-item {
-    padding: 0.85rem 1.5rem;
-    border-color: rgba(255, 255, 255, 0.03) !important;
-}
-
-.dark-style .account-settings-links .list-group-item.active {
-    color: #fff !important;
-}
-
-.light-style .account-settings-links .list-group-item.active {
-    color: #4E5155 !important;
-}
-
-.light-style .account-settings-links .list-group-item {
-    padding: 0.85rem 1.5rem;
-    border-color: rgba(24, 28, 33, 0.03) !important;
-}
 
 
 
